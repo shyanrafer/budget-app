@@ -1,0 +1,17 @@
+{
+  "name": "budget-app",
+  "version": "1.0.0",
+  "description": "First (solo) project after my coding bootcamp. Tech to be used: React, JavaScript, HTML, CSS, perhaps some styling frameworks, Bcrypt, mongo DB, mongoose, apollo, visual studio",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server --ignore client",
+    "develop": "concurrently \"cd server && npm run start\" \"cd client && npm run dev\"",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "seed": "cd server && npm run seed",
+    "build": "cd client && npm run build",
+    "render-build": "npm install && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
