@@ -1,2 +1,13 @@
 # budget-app
-First (solo) project after my coding bootcamp. Tech to be used: React, JavaScript, HTML, CSS, perhaps some styling frameworks, Bcrypt, mongo DB, mongoose, apollo, visual studio
+First (solo) project after my coding bootcamp. Tech to be used:
+- Apollo
+- Bcrypt
+- CSS
+- HTML
+- JavaScript
+- MongoDB
+- Mongoose
+- React
+- Styling frameworks (e.g., Bootstrap, Tailwind)
+- Visual Studio
+- Vite
