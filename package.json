@@ -1,17 +1,28 @@
 {
   "name": "budget-app",
-  "version": "1.0.0",
-  "description": "First (solo) project after my coding bootcamp. Tech to be used: React, JavaScript, HTML, CSS, perhaps some styling frameworks, Bcrypt, mongo DB, mongoose, apollo, visual studio",
-  "main": "index.js",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "start": "node server --ignore client",
-    "develop": "concurrently \"cd server && npm run start\" \"cd client && npm run dev\"",
-    "install": "cd server && npm i && cd ../client && npm i",
-    "seed": "cd server && npm run seed",
-    "build": "cd client && npm run build",
-    "render-build": "npm install && npm run build"
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "eslint": "^9.13.0",
+    "eslint-plugin-react": "^7.37.1",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.13",
+    "globals": "^15.11.0",
+    "vite": "^5.4.9"
+  }
 }
