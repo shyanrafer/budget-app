@@ -2,10 +2,17 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import { useNavigate } from 'react-router-dom'
+
 // import TestComponent from './components/testComponent'
 
 function App() {
   const [count, setCount] = useState(0)
+  const nav = useNavigate();
+
+  const goToTest = () => {
+    nav('/TestPage')
+  }
 
   return (
     <>
@@ -23,7 +30,7 @@ function App() {
           count is {count}
         </button>
         {/* <TestComponent></TestComponent>         */}
-        <button>Button</button>
+        <button onClick={goToTest}>Button</button>
         <p>It would seem I still have much to learn. Kudos for doing some coding today.</p>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
