@@ -1,0 +1,11 @@
+.header {
+  padding: 10px 10px;
+  margin-bottom: 5px;
+  border-bottom: solid black 2px;
+  display: flex;
+  justify-content: space-between;
+}
+.btns {
+  align-content: center;
+  flex-direction: row;
+}

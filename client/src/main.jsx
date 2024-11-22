@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; // 'a
 import './index.css';
 import App from './App';
 import TestPage from './pages/TestPage'; // Import TestPage here. Need it as it is a 'component' and can be loaded so long as it is routed to. Wondering about the use of components in other instances now. Seems a bit different compared to the final project from coding class.
+import Profile from './pages/Profile'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -12,6 +13,7 @@ createRoot(document.getElementById('root')).render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/TestPage" element={<TestPage />} />
+        <Route path="/Profile" element={<Profile />} />
       </Routes>
     </Router>
   </StrictMode>

@@ -3,18 +3,13 @@ import { useState } from 'react'
 // import viteLogo from '/vite.svg'
 import Header from './components/Header'
 import './App.css'
-import { useNavigate } from 'react-router-dom'
 
 
 // import TestComponent from './components/testComponent'
 
 function App() {
   const [count, setCount] = useState(0)
-  const nav = useNavigate();
 
-  const goToTest = () => {
-    nav('/TestPage')
-  }
 
   return (
     <>
@@ -32,8 +27,6 @@ function App() {
           count is {count}
           {/* I kind of want count to be stored in the database - just as a showcase of capactiy */}
         </button>
-        {/* <TestComponent></TestComponent>         */}
-        <button onClick={goToTest}>Test Page</button>
         <br/><br/>
         <p>The only way to learn is to consitently push into the realm of discomfort and then keep pushing once there. Do so until whatever obstacle before you is nothing more than a stepping stone on your path to betterment.
            <br/><br/>
