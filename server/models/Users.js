@@ -3,8 +3,9 @@ const { Schema, model } = require('mongoose');
 // import bcrypt for password hashing
 const bcrypt = require ('bcrypt');
 // these auto added... not sure if needed
-const { unique } = require('prelude-ls');
-const { type } = require('doctrine');
+// const { unique } = require('prelude-ls');
+// const { type } = require('doctrine');
+
 const userSchema = new Schema({
   username: {
     type: String,

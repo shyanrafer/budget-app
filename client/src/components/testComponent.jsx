@@ -1,17 +1,3 @@
-import { useNavigate } from 'react-router-dom'
-
-function TestComponent() {
-  const nav = useNavigate();
-  
-  const goToTest = () => {
-    nav('/testpage')
-  }
-
-  return (
-    <button onClick={goToTest}>
-      Go to test page
-    </button>
-  )
-}
-
-export default TestComponent
+// I aim to add a form element to the app such that one can input expeses select a category of expense, and then when they submit - the fields clear and the data is captured and page information refreshed.
+// The page information I would like to see: Month by month tracker, categories, the ability to see a given category, the ability to compare months and a given category by month, 
+// Have a main page and when the user clicks a tab a field of the window is updated instead of the whole window. 

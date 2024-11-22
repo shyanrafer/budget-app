@@ -1,6 +1,7 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+// import reactLogo from './assets/react.svg'
+// import viteLogo from '/vite.svg'
+import Header from './components/Header'
 import './App.css'
 import { useNavigate } from 'react-router-dom'
 
@@ -17,29 +18,32 @@ function App() {
 
   return (
     <>
-      <div>
+    <Header></Header>
+      {/* <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
         <a href="https://react.dev" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
-      </div>
-      <h1>Vite + React</h1>
+      </div> */}
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
+          {/* I kind of want count to be stored in the database - just as a showcase of capactiy */}
         </button>
         {/* <TestComponent></TestComponent>         */}
-        <button onClick={goToTest}>Button</button>
-        <p>It would seem I still have much to learn. Kudos for doing some coding today.</p>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+        <button onClick={goToTest}>Test Page</button>
+        <br/><br/>
+        <p>The only way to learn is to consitently push into the realm of discomfort and then keep pushing once there. Do so until whatever obstacle before you is nothing more than a stepping stone on your path to betterment.
+           <br/><br/>
+           Kudos for doing some coding today.
         </p>
+
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+       Go to the <a href='https://github.com/shyanrafer/budget-app' target='_blank'>project repo </a>
+       to check out the commit history</p>
     </>
   )
 }

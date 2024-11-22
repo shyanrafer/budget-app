@@ -1,7 +1,10 @@
 # budget-app
 Notes of each commit to be added here. 
 </br>
-For this commit, I aim to create a file for routing between the different pages.
+For this commit, I aim to create a file for routing between the different pages.**
+Add more to test page. Build multiple comonents and add them to various pages.
+Need seed data and a command to accomodate the uploading of the seed data when deploying on Render.
+Add a random quote generator that refreshes everday.
 
 </br></br>
 First (solo) project after my coding bootcamp. Tech to be used:
@@ -30,3 +33,7 @@ I have grown weary of tracking my expenses by hand and don't want to download an
 - [Questions](#questions)
 - [Contact](#contact)
 - [Screenshots](#screenshots)
+
+
+<!--         <p>The only way to learn is to consitently push into the realm of discomfort and then keep pushing once there. Do so until whatever obstacle before you is nothing more than a stepping stone on your path to betterment.
+ -->
