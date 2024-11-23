@@ -4,11 +4,11 @@ import ProfBtn from '../ProfileBtn'
 
 const Header = () => {
   return (
-     <div className='header'> 
+    <div className='header'> 
       <h1 className='h1'>Budet app 9000</h1>
-      <div className='btns'>
-        <TstPgBtn className='tstBtn'></TstPgBtn>
-        <ProfBtn className='profBtn'></ProfBtn>
+      <div className='btnSection'>
+        <TstPgBtn className='tstBtn btns'></TstPgBtn>
+        <ProfBtn className='profBtn btns'></ProfBtn>
       </div>
     </div>
   )
