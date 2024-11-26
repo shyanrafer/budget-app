@@ -1,7 +1,6 @@
-const { gql } = require('apollo-server-express')
 
 // define key value pairs here
-const typeDefs = gql`
+const typeDefs = `#graphql
 type Quote {
   _id: ID
   quote: String

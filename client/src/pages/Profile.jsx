@@ -1,6 +1,10 @@
+import HmPgBtn from "../components/hmPgBtn"
 const Profile = () => {
   return (
-    <h3>Profile</h3>
+    <div> 
+      <h3>Profile</h3>
+      <HmPgBtn></HmPgBtn>
+    </div> 
   )
 }
 

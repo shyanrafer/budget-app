@@ -6,7 +6,7 @@ const resolvers = {
   Query: {
     getQuotes: async () => {
       // logic
-      return await Quote.find();
+      return Quote.find();
     }
   },
   Mutation: {

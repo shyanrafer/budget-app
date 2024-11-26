@@ -8,7 +8,7 @@ const ProfBtn = () => {
   }
   
   return (
-    <button onClick={goToProf}>Profile</button>
+    <button className='btn' onClick={goToProf}>Profile</button>
   )
 }
 
