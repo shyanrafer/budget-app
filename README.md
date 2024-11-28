@@ -1,10 +1,7 @@
 # budget-app
 Notes of each commit to be added here. 
 </br>
-For this commit, I aim to create a file for routing between the different pages.**
-Add more to test page. Build multiple comonents and add them to various pages.
-Need seed data and a command to accomodate the uploading of the seed data when deploying on Render.
-Add a random quote generator that refreshes everday.
+For this upcoming commit - I am looking to work more on style and would also like to integrate some kind of form(s) for data input.
 
 </br></br>
 First (solo) project after my coding bootcamp. Tech to be used:

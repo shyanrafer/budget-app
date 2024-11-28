@@ -1,21 +1,25 @@
-import Header from './components/Header'
-import './App.css'
+// App will now be used for providing the routes 
+
+import { Routes, Route } from "react-router-dom"
+import Layout from "./Layout"
+// I need a home page too...
+import Homepage from "./pages/HomePage"
+import Profile from "./pages/Profile"
+import TestPage from "./pages/TestPage"
 
 function App() {
-
-
   return (
-    <div>
-      <Header></Header>
-          <p>The only way to learn is to consitently push into the realm of discomfort and then keep pushing once there. Do so until whatever obstacle before you is nothing more than a stepping stone on your path to betterment.
-             <br/><br/>
-             Kudos for doing some coding today.
-          </p>
-        <p>
-          Go to the <a href='https://github.com/shyanrafer/budget-app' target='_blank'>project repo </a>
-          to check out the commit history
-        </p>
-    </div>
+    // start with Routes...
+    <Routes>
+      {/* then make individual route(s) starttin with a root route... */}
+      <Route path="/" element={<Layout />}>
+        {/* index element in the case below is the default page that will be loaded when the URL has just "/" */}
+        <Route index element={<Homepage />} />
+        {/* the following is how to set up additional routes */}
+        <Route path="Profile" element={<Profile />} />
+        <Route path="TestPage" element={<TestPage />} />
+      </Route>
+    </Routes>
   )
 }
 
