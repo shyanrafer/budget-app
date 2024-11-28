@@ -3,9 +3,9 @@
 import { Routes, Route } from "react-router-dom"
 import Layout from "./Layout"
 // I need a home page too...
-import Homepage from "./pages/HomePage"
-import Profile from "./pages/Profile"
-import TestPage from "./pages/TestPage"
+import Homepage from "../../pages/HomePage"
+import Profile from "../../pages/Profile"
+import TestPage from "../../pages/TestPage"
 
 function App() {
   return (
