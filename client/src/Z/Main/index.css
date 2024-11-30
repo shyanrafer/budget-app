@@ -2,10 +2,13 @@
   padding: 0;
   margin: 0;
   font-family: Helvetica, sans-serif;
-  background-color: #99a196;
+  color: white;
 }
 
-.btn {
-  width: 100px;
-  height: 30px;
+a:active {
+  color: skyblue;
 }
+
+
+
+

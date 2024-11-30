@@ -4,12 +4,15 @@ import { Outlet } from "react-router-dom"
 import Header from "../../components/Header/index"
 // I need to make a footer
 import Footer from "../../components/Footer"
+import './layout.css'
 
 const Layout = () => {
   return (
-    <div>
-      <Header></Header>
-      <main>
+    <div className="viewport">
+      <div className='style1'>
+        <Header></Header>
+      </div>
+      <main className="style2 home">
         <Outlet></Outlet>
       </main>
       <Footer></Footer>

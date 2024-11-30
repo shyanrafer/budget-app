@@ -10,7 +10,7 @@ const resolvers = {
     }
   },
   Mutation: {
-    addQuote: async (_, { quote}) => {
+    addQuote: async (_, { quote }) => {
       const newQuote = new Quote({quote});
       await newQuote.save();
       return newQuote;

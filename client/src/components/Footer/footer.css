@@ -1,0 +1,13 @@
+.footer {
+  position: absolute;
+  bottom: 0;
+  border-top: solid 2px black;
+  width: 100vw;
+}
+
+.footerContent {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+
+}

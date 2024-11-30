@@ -1,8 +1,7 @@
 # budget-app
 Notes of each commit to be added here. 
 </br>
-For this upcoming commit - I am looking to work more on style and would also like to integrate some kind of form(s) for data input.
-
+I still need to workout the data pipeline. Made huge leaps a couple commits ago on the persistence of the header and footer and subsequent page/component loading.
 </br></br>
 First (solo) project after my coding bootcamp. Tech to be used:
 - Apollo

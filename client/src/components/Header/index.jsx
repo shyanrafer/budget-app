@@ -1,7 +1,5 @@
 import './index.css'
-import TstPgBtn from '../tstPgBtn'
-import ProfBtn from '../ProfileBtn'
-import Navigation from '../../pages/Navigation'
+import Navigation from '../Navigation'
 
 console.log('Budet app LOLOLOLOLOL')
 const Header = () => {
@@ -9,10 +7,6 @@ const Header = () => {
     <div className='header'> 
       <h1 className='h1'>Budget app 9000</h1>
       <Navigation></Navigation>
-      <div className='btnSection'>
-        <TstPgBtn className='tstBtn btns'></TstPgBtn>
-        <ProfBtn className='profBtn btns'></ProfBtn>
-      </div>
     </div>
   )
 }
