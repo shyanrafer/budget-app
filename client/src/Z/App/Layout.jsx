@@ -9,13 +9,12 @@ import './layout.css'
 const Layout = () => {
   return (
     <div className="viewport">
-      <div className='style1'>
-        <Header></Header>
-      </div>
-      <main className="style2 home">
+      <Header></Header>
+      <main className="style2">
         <Outlet></Outlet>
       </main>
       <Footer></Footer>
+    
     </div>
   )
 }

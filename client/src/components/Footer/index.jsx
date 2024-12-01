@@ -3,12 +3,12 @@ import Navigation from '../Navigation'
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <footer className="footer">
       <div className='footerContent style1'>
         <p>Made by Ryan Shaffer</p>
         <Navigation></Navigation>
       </div>
-    </div>
+    </footer>
   )
 }
 
