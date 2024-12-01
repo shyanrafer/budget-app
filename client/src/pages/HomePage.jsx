@@ -1,6 +1,6 @@
 // this is what the user will see after the landing/login page
 
-const Homepage = () => {
+const HomePage = () => {
   return (
     <div className='home'>
       
@@ -8,4 +8,4 @@ const Homepage = () => {
   ) 
 }
 
-export default Homepage
+export default HomePage

@@ -3,9 +3,10 @@
 import { Routes, Route } from "react-router-dom"
 import Layout from "./Layout"
 // I need a home page too...
-import Homepage from "../../pages/HomePage"
+import HomePage from "../../pages/HomePage"
 import Profile from "../../pages/Profile"
 import TestPage from "../../pages/TestPage"
+import LandingPage from "../../pages/LandingPage"
 
 function App() {
   return (
@@ -14,8 +15,10 @@ function App() {
       {/* then make individual route(s) starttin with a root route... */}
       <Route path="/" element={<Layout />}>
         {/* index element in the case below is the default page that will be loaded when the URL has just "/" */}
-        <Route index element={<Homepage />} />
+        <Route index element={<LandingPage />} />
         {/* the following is how to set up additional routes */}
+        <Route path="HomePage" element={<HomePage />} />
+
         <Route path="Profile" element={<Profile />} />
         <Route path="TestPage" element={<TestPage />} />
       </Route>
